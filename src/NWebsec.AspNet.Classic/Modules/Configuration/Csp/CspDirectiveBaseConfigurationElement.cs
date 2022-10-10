@@ -56,6 +56,8 @@ namespace NWebsec.Modules.Configuration.Csp
 
         public string Nonce { get; set; }
 
+
+
         [ConfigurationProperty("", IsRequired = false, IsDefaultCollection = true)]
         [ConfigurationCollection(typeof(CspSourcesElementCollection<>), CollectionType = ConfigurationElementCollectionType.AddRemoveClearMap)]
         public CspSourcesElementCollection<T> Sources

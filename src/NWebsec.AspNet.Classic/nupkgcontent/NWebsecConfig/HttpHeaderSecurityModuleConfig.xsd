@@ -385,6 +385,11 @@
             <xs:documentation>Optional. Specifies whether to include the 'unsafe-inline' source. The default is false.</xs:documentation>
           </xs:annotation>
         </xs:attribute>
+        <xs:attribute name="nonceEnabled" type="simple_boolean" use="optional">
+          <xs:annotation>
+            <xs:documentation>Optional. Specifies whether to enable nonces for the source directive. The default is false.</xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>

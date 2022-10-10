@@ -3,7 +3,7 @@
   <Import Project="..\common.props" />
   
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net462</TargetFramework>
 
     <AssemblyTitle>NWebsec.Owin</AssemblyTitle>
     <VersionPrefix>4.0.0</VersionPrefix>

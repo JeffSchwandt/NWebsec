@@ -12,5 +12,12 @@ namespace NWebsec.Modules.Configuration.Csp
             get => (bool)this["unsafeInline"];
             set => this["unsafeInline"] = value;
         }
+
+        [ConfigurationProperty("nonceEnabled", IsRequired = false, DefaultValue = false)]
+        public bool NonceEnabled
+        {
+            get => (bool)this["nonceEnabled"];
+            set => this["nonceEnabled"] = value;
+        }
     }
 }
